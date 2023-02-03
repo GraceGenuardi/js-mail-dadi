@@ -4,3 +4,8 @@ console.log('Array')
 
 const email = ["jonsnow@gmail.com", "cesira@gmail.com", "sansa@gmail.com", "arya@gmail.com" ]
 console.log(email)
+
+
+//1.Usiamo prompt, chiediamo all'utente la sua email
+
+const emailUtente = prompt ("Inserisci la tua email")
