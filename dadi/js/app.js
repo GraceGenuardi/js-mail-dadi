@@ -1,7 +1,7 @@
 //GIOCO DEI DADI
 
 // 1.Chiedi all'utente di inserire il suo numero
-const numeroGiocatore = parseInt(prompt("Inserisci il tuo numero (1-6)"));
+const numeroGiocatore = parseInt(prompt("Gioca! Inserisci un numero da 1 a 6"));
 
 // 2.Genera il numero casuale per il computer (math.floor+math.random ossia da numeri che decrescono a numeri casuali )
 const numeroComputer = Math.floor(Math.random() * 6) + 1;
@@ -25,7 +25,11 @@ if (numeroGiocatore > numeroComputer) {
   console.log("Pareggio tra giocatore e computer con il punteggio di " + numeroGiocatore);
 }
 
+//4.Stampa risultato sulla pagina web
 
+document.getElementById("numeroGiocatore").innerHTML = numeroGiocatore;
+document.getElementById("numeroComputer").innerHTML = numeroComputer;
+document.getElementById("vincitore").innerHTML = risultato;
 
 
 

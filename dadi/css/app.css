@@ -1,0 +1,50 @@
+
+.dadi {
+    background-image: url(../img/il_fullxfull.1161398773_89o9.jpg);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.container{
+    background-color: rgba(228, 236, 234, 0.877);
+    width: 900px;
+    padding: 40px;
+}
+
+.container h1 {
+    font-size: 80px;
+}
+
+.giocatore{
+    color: green;
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+.computer{
+    color: rgb(2, 0, 128);
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+
+.vincitore{
+    color: rgb(219, 25, 25);
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+
+.player {
+    color: green;
+}
+
+.pc {
+    color: rgb(2, 0, 128);
+}
